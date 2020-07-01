@@ -3,9 +3,16 @@ table {
 }
 th{
   background-color: #53a7f5;
-  padding: 10pt;
+  padding: 10px;
 }
 td{
   border: solid 1pt black;
-  padding: 10pt;
+  padding: 10px;
+}
+tr:nth-child(even){
+  background-color: #a9c2d1; 
+}
+tr:hover{
+  background-color: #baf1ff;
+  font-weight: bold; 
 }
